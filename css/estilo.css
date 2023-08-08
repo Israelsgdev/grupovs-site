@@ -34,8 +34,8 @@
 }
 
 .menu-links ul li {
-    margin: 0 30px;
-    padding: 2px;
+    border-radius: 20px;
+    padding: 0px 18px;
 }
 
 .menu-links ul {
@@ -45,11 +45,12 @@
 
 .menu-links ul li:hover {
     background-color: #cc2229;
-    border-radius: 20px;
+    transition: 1s;
 }
 
 .menu-links ul a:hover {
     color: #fff;
+    
 }
 
 
@@ -76,12 +77,14 @@
     padding: 84px 0px 0px 0px;
     font-family: 'Inter', sans-serif;
     font-weight: 100;
+    
 }
 
-#nav-empresas button {
-
-    color: #ececec;
+#navbarNavDarkDropdown {
+    color: #ececec; 
 }
+
+
 
 
 .fundo-logos-slide {
